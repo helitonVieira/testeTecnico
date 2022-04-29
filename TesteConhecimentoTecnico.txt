@@ -1,0 +1,23 @@
+Spring batch 
+	Processamento em lote ex:(folha de pagamento, notificações, transações bancarias)
+	
+	volumetria 
+	não tem interface grafica
+	não interage com usuario 
+	
+ job tarefa de uma forma completa(pode ser executado de forma agentado, manual, planejado)
+	pode ser configurado a  quantidade vezes que vai executar e outras configuraçoes 
+	pode ser verificado o estado do job a quantidade vezes executou, qts falhas teve tudo isso é configurado 
+ 
+ step  são as sub tarefas dentro de um job, no entanto 1 job contem varios steps 
+       e cada step pode ser monitorado e configurado.
+       
+       JOB   step1 ---  step2 -----  final do JOB
+  
+	
+	
+	
+	
+	
+	
+	
